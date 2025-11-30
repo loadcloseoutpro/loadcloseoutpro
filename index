@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Load Closeout Pro</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+      background: #0b0c10;
+      color: #f5f5f5;
+      padding: 2rem;
+    }
+    header {
+      text-align: center;
+      margin-bottom: 2rem;
+    }
+    img.logo {
+      max-width: 120px;
+      border-radius: 20px;
+    }
+    h1 {
+      font-size: 2.5rem;
+      margin-top: 1rem;
+    }
+    p {
+      max-width: 600px;
+      margin: 0 auto 1rem;
+      line-height: 1.6;
+    }
+    .features {
+      max-width: 700px;
+      margin: 2rem auto;
+      padding: 1rem;
+      background: #1f1f1f;
+      border-radius: 12px;
+    }
+    .features h2 {
+      text-align: center;
+    }
+    ul {
+      list-style: none;
+      padding: 0;
+    }
+    ul li::before {
+      content: "🛩️ ";
+      margin-right: 0.5rem;
+    }
+    .cta {
+      text-align: center;
+      margin-top: 2rem;
+    }
+    .cta a {
+      display: inline-block;
+      background: #007aff;
+      color: white;
+      padding: 0.75rem 1.5rem;
+      border-radius: 8px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    footer {
+      text-align: center;
+      font-size: 0.8rem;
+      color: #999;
+      margin-top: 3rem;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <img src="https://raw.githubusercontent.com/loadcloseoutpro/loadcloseoutpro/main/icon.png" alt="App Icon" class="logo" />
+    <h1>Load Closeout Pro</h1>
+    <p>Flight planning. Fuel. Checklists. Done right. For AA Airbus pilots.</p>
+  </header>
+
+  <section class="features">
+    <h2>Features</h2>
+    <ul>
+      <li>📝 Parse and import release PDFs automatically</li>
+      <li>✅ Electronic checklist with note-taking</li>
+      <li>⛽ Bingo fuel calculator with fudge factor</li>
+      <li>📡 Weather + NOTAMs integration (coming soon)</li>
+      <li>🧠 Crew notes sharing (coming soon)</li>
+    </ul>
+  </section>
+
+  <div class="cta">
+    <a href="#">Coming Soon to the App Store</a>
+  </div>
+
+  <footer>
+    &copy; 2025 Load Closeout Pro • Built for AA pilots
+  </footer>
+</body>
+</html>
